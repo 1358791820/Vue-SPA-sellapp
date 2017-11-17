@@ -1,0 +1,25 @@
+@mixin bg-img($url) {
+  [data-dpr="2"] &{
+    background-image: url($url+"@2x.png");//dpr为2时的图片
+  };
+  [data-dpr="3"] &{
+    background-image: url($url+"@3x.png");//dpr为3时的图片
+  };
+  background-size:100%;
+  background-repeat: no-repeat;
+
+}
+
+.clearfix{
+    display: inline-block;
+    &:after{
+        display: block;
+        content: "";
+        height:0;
+        line-height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+

@@ -1,0 +1,35 @@
+    .star{
+        font-size:0;
+        .star_item{
+            display: inline-block;
+            background-repeat: no-repeat;   
+        }
+        &.star-48{
+            .star-item{
+                width:px2rem(40);
+                height:px2rem(40);
+                margin-right:px2rem(44);
+                background-size: 100%;
+                background: red;
+                &:last-child{
+                    margin-left: 0;
+                }
+                &.ON{
+                    margin-left: 0;
+                    
+                }
+                &.HALF{
+                    margin-left: 0;
+                    
+                }
+                &.OFF{
+                    margin-left: 0;
+                    
+                }
+            }
+        }
+        
+        
+        
+            
+    }
