@@ -16,7 +16,7 @@
 <h3>安装（git clone）</h3>
 
 1、项目地址（git clone):  </br>
-  git clone https://github.com/1358791820/Vue-SPA-sellapp.git 
+  git clone https://github.com/1358791820/sellapp.git 
 
 2、安装vue脚手架工具vue-cli:</br>
   npm install vue-cli -g
